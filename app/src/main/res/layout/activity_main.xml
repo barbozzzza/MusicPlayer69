@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayer69.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/AlbumCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/albumcover"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        android:padding="14dp"
+        android:layout_alignParentStart="true" />
+
+    <SearchView
+        android:id="@+id/music_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Music"
+        android:padding="14dp"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:padding="12dp"
+            android:src="@drawable/albumcover1" />
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/Song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is this it" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/Artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="the strokes" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:padding="12dp"
+            android:src="@drawable/play" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicPlayer69</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="song">Song</string>
+
+    <string name="family_activity">FamilyActivity</string>
+</resources>
