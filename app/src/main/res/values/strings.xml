@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">MusicPlayer69</string>
+    <string name="app_name">MusicPlayer</string>
     <string name="artist">Artist</string>
     <string name="album">Album</string>
     <string name="song">Song</string>
 
     <string name="family_activity">FamilyActivity</string>
+    <string name="Search_Song">Search Music</string>
+    <string name="is_this_it">is this it</string>
+    <string name="the_strokes">the strokes</string>
 </resources>
